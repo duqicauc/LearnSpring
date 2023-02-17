@@ -6,7 +6,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 @Data
-public class LogingLog implements Serializable {
+public class LoginLog implements Serializable {
     private int loginLogId;
 
     private int userId;
