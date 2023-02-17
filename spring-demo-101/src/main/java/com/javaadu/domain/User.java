@@ -3,6 +3,7 @@ package com.javaadu.domain;
 import lombok.Data;
 
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * @author javaadu
@@ -18,5 +19,5 @@ public class User implements Serializable {
 
     private String lastIp;
 
-    private String lastVisit;
+    private Date lastVisit;
 }
